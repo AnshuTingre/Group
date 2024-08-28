@@ -1,58 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>It's html</title>
-  <link rel="stylesheet" href="color.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Anshu Suresh Tingre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            margin: 5px 0;
+            color: #777;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .skills, .experience, .education {
+            display: flex;
+            flex-direction: column;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        .item h3 {
+            margin: 0;
+        }
+        .item p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
-
 <body>
-<div>
-<h1 style="text-align:centre">Resume</h1>
-<img src="C:\Users\MTECH\Downloads\mitwpu.jpg" 
-   style="width:100px;height:100px; >
-
-<h2 style="color:red">Name : Anshu S. Tingre</h2>
-<p> I am a engineering student at <b>MIT University</b> , Pune . I am Pursing my degree in BTECH CSE . Currently Its Thrid Year <p>
-
-<hr width="100%;" color="black" size="1">
-
-<h3>Education</h3>
-<h4><li>10th   : SSC  </li></h4>
-<h4><li>Diploma: Computer Scince </li></h4>
-
-<hr width="100%;" color="black" size="1">
-
-<h3>Pursing Education</h3>
-
-<h4><li>BTECH Computer Scince </li></h4>
-
-<hr width="100%;" color="black" size="1">
-
-<h3>Hobbies</h3>
-
-<h4><li>Playing sports</li></h4>
-
-<h4><li>reading</li></h4>
-
-<hr width="100%;" color="black" size="1">
-
-<div class="at-text-red">
- <h3 >Skills</h3>
- <h4><li>Web Development</li></h4>
- <h4><li>Designing</li></h4>
- <h4><li>Data Engineering</li></h4>
-</div>
-
-<hr width="100%;" color="black" size="1">
-
-<h3>Intern</h3>
-<h4><li>Web Page Development</li></h4>
-
-<hr width="100%;" color="black" size="1">
-
-<h3>Contact<h3>
-<h4><li>Phone no : 157454545</li></h4>
-<h4><li>Email    : anshu.tingre@mitwpu.edu.in</li></h4>
-</div>
+    <div class="container">
+        <header>
+            <h1>Anshu Suresh Tingre</h1>
+            <p>Email: anshu@example.com | Phone: (123) 456-7890 | Location: City, State</p>
+        </header>
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Motivated and detail-oriented professional with experience in [your field]. Adept at [key skills] and passionate about [your interests]. Looking to contribute to a dynamic team where I can apply my skills and grow further.</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="item">
+                    <h3>Technical Skills</h3>
+                    <p>Skill 1, Skill 2, Skill 3</p>
+                </div>
+                <div class="item">
+                    <h3>Soft Skills</h3>
+                    <p>Skill 1, Skill 2, Skill 3</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <div class="experience">
+                <div class="item">
+                    <h3>Job Title - Company Name</h3>
+                    <p>Location | Dates of Employment</p>
+                    <p>Achievements and responsibilities at this position.</p>
+                </div>
+                <div class="item">
+                    <h3>Job Title - Company Name</h3>
+                    <p>Location | Dates of Employment</p>
+                    <p>Achievements and responsibilities at this position.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <div class="education">
+                <div class="item">
+                    <h3>Degree - University Name</h3>
+                    <p>Location | Graduation Year</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certification Name - Issuing Organization</li>
+                <li>Certification Name - Issuing Organization</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Project Name:</strong> Brief description of the project and your role.</li>
+                <li><strong>Project Name:</strong> Brief description of the project and your role.</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
